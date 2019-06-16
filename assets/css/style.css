@@ -1,6 +1,5 @@
 .body {
   margin-left: 500px;
-  max-width: 965px;
   font: #777777;
 background: #4aaaa5;
   position: relative;
@@ -13,11 +12,11 @@ background: #4aaaa5;
 }
 
 .mainheader {
+float: left;
   align-content: center;
-  float: left;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font: #4aaaa5;
-  width: 240px;
+  max-width:  240px;
   height: 50px;
   padding: 5px;
   border: 10px;
@@ -48,24 +47,11 @@ background: #4aaaa5;
   background-color: #ddd;
   color: black;
 }
-.aboutme {
-    align-content: center;
-    float: left;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    width: 240px;
-    height: 50px;
-    padding: 5px;
-    border: 10px;
-    font-size: 18px;
-    color: white;
-    background: #ffffff;
-  }
 
 
 .clearfix::after {
-  content:"";
+ 
   clear: both;
-  display:inline;
 }
 
 .img {
@@ -74,9 +60,10 @@ background: #4aaaa5;
 }
 
 .maincontent {
-    display: inline;
+ display:inline-block;
+ outline-width: 500px;
   background-color: #ffffff;
-  width: 960px;
+  max-width: 960px;
   border-block-color: #dddddd;
   padding: 5px
 }
