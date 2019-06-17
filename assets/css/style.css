@@ -36,8 +36,7 @@
   max-height: 50px;
 }
 
-.a.highlight:hover {
-  background-color: red;
+a:hover {
   color: black;
 }
 
@@ -46,7 +45,9 @@
   clear: both;
   display: table;
 }
-
+.aboutme {
+  color: #4aaaa5;
+}
 .maincontent {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   background-color: #ffffff;
@@ -58,26 +59,24 @@
   color: #777777;
 }
 
-.aboutme{color: #4aaaa5;}
 .image {
   float: left;
-  display: inline;
 }
 #content {
   padding: 5px;
   font-size: 25px;
   position: absolute;
   width: fit-content;
-  
+  flex: 1;
 }
-.foot{
+.foot {
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   background-color: #cccccc;
-  border-top: 20px solid #4aaaa5;
+  border-top: 8px solid #4aaaa5;
   margin-top: 60px;
   padding: 10px;
   color: #777777;
- 
+  flex-shrink: 0;
 }
 
 /*Teal color (used for headings and backgrounds): `#4aaaa5`
