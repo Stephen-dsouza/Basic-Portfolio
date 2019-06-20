@@ -3,7 +3,6 @@ body {
   color: #777777; */
   background-image: url("../images/united-squares-negative.jpg");
   /* background-color: black; */
-
 }
 /* This is the main header container to hold name and links */
 .mainheader {
@@ -38,19 +37,18 @@ body {
   max-height: 50px;
 } */
 
-li,a{
+li,
+a {
   display: block;
   font-size: 20px;
   padding: 10px;
 }
 
-
-  li{
-    float: right;
-  }
+li {
+  float: right;
+}
 
 ul {
-  
   list-style-type: none;
   margin: 0 auto;
   padding: 0px;
@@ -62,7 +60,6 @@ ul {
   overflow: hidden;
 }
 
-
 a:hover {
   color: black;
 }
@@ -70,7 +67,7 @@ a:hover {
 .clearfix::after {
   content: "";
   clear: both;
-  display:  block;
+  display: block;
 }
 
 .maincontent {
@@ -83,14 +80,13 @@ a:hover {
   color: #777777;
   margin: 20px auto;
 }
-.aboutme  {
+.aboutme {
   color: #4aaaa5;
 }
 
-h1{
-  
+h1 {
   font-weight: bolder;
-  font-size: 30px ;
+  font-size: 30px;
   padding: 5px;
   margin-block: 5px;
 }
@@ -104,7 +100,6 @@ h1{
   position: relative;
 }
 
-
 footer {
   /* position: relative; */
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -115,25 +110,38 @@ footer {
   color: #777777;
   /* bottom: 0%; */
   text-align: center;
-  
+  position: fixed;
+  bottom: 0;
+  width: 100%
 }
 /* Porfolio images styling */
 
-.portfolio content{
+.portfolio content {
   display: block;
   float: left;
+  
 }
 
-.portfolioimages{
+.portfolioimages {
   background-size: contain;
   width: 160px;
-  height: 160px;
+  max-width: 100%;
+  height: auto;
   border: 2px solid;
-  color:blue;
+  color: blue;
   resize: both;
   overflow: scroll;
+  position: relative;
+  
+  
 }
 
+.imagename{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+} 
 
 /* Teal color (used for headings and backgrounds): `#4aaaa5`
 * Regular font color (used for paragraphs and all text besides the headings): `#777777`
