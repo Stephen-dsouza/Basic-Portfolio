@@ -80,8 +80,8 @@ a:active {
 }
 
 .maincontent {
-  /* font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif; */
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   line-height: 20px;
   background-color: #ffffff;
   border-color: #dddddd;
@@ -106,9 +106,10 @@ h1 {
 }
 #content {
   padding: 5px;
-  font-size: 25px;
+  font-size: 30px;
   width: fit-content;
   position: relative;
+  line-height: 20px;
 }
 
 footer {
