@@ -133,24 +133,41 @@ footer {
 }
 
 .portfolioimages {
+  float: left;
   background-size: contain;
-  width: 160px;
+  width: 250px;
   max-width: 100%;
   height: auto;
   border: 2px solid;
   color: blue;
   resize: both;
-  overflow: scroll;
-
+  overflow:auto;
   position: relative;
+  margin: 10px 10px;
+  z-index: 1;
 }
+.img1{position: relative;
+float:left;}
+
+/* h3{position: absolute;
+bottom: 0;
+z-index: 1;} */
 
 .imagename {
-  bottom: 8px;
-  left: 16px;
+  top: 65%;
+  padding: 10px 0px;
+  width: 250px;
+  left: 12px;
   font-size: 18px;
-  color: #777777;
+  color: #dddddd;
+  position: absolute;
+  background-color: #4aaaa5;
+  z-index: 1;
+  text-align: center;
+  font-weight: bolder;
+  
 }
+
 
 .contact content {
   font-family: "Montserrat", sans-serif;
